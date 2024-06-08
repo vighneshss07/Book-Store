@@ -1,2 +1,8 @@
-# Book-Store
-The Book Store Management System is designed to streamline and enhance the operations of a bookstore. Leveraging modern web technologies, this system offers a comprehensive solution for managing inventory, sales, customer relationships, and other essential business functions. The system is built using ReactJS for the front-end, providing a responsive and interactive user experience, and MongoDB for the back-end, ensuring a robust and scalable database solution.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 12px;
+    background-color: rgb(29, 243, 243);
+    color: #fff;
+    border-bottom: 1px solid purple;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.8rem; /* Fixed typo in font size */
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none; /* Remove default list styling */
+    display: flex;
+    font-style: italic;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added transition for smooth color change */
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+    color: yellow; /* Example color change on hover */
+}
